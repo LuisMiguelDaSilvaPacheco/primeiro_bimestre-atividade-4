@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real dolar, reais, reais_faltantes, dolares_faltantes, ps5
+		inteiro livros
+		ps5 = 1300 * 5.66 //preço do ps5 em dólar e cotação do dólar no momento em que estou fazendo o código
+
+		escreva("Quantos reais você tem economizados atualmente? \n")
+		leia(reais)
+		
+		dolar = reais / 5.66
+		livros = reais / 50 
+		dolares_faltantes = 1300 - dolar
+		reais_faltantes = (1300 * 5.66) - reais
+
+		se (reais < ps5){
+		escreva("Faltam ", dolares_faltantes, " dólares para comprar um ps5 \n")
+		escreva("Faltam ", reais_faltantes, " reais para comprar um ps5 \n")
+		escreva("você poderia ter comprado ", livros, " livros Harry Poter e a Ordem da Fênix com as suas economias")
+		}
+		senao{
+			escreva("Não falta dinheiro para você comprar o ps5, mas você pode gastar esse dinheiro comprando ", livros, " livros Harry Poter e a Ordem da Fênix")
+		}
+	}
+}
