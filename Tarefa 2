@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real nota0, nota1, nota2, nota3, media
+
+		escreva("Quais foram suas notas este bimestre? \n")
+
+		leia(nota0)
+		leia(nota1)
+		leia(nota2)
+		leia(nota3)
+
+		media = (nota0 + nota1 + nota2 + nota3) / 4
+
+		escreva("Sua média este bimestre foi de ", media)
+	}
+}
