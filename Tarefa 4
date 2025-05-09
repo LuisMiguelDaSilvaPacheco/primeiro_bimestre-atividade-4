@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real metros, centimetros
+
+		escreva("Diga uma quantia em metros! \n")
+		leia(metros)
+
+		centimetros = metros * 100
+
+		escreva("Em centímetros isto é ", centimetros)
+	}
+}
