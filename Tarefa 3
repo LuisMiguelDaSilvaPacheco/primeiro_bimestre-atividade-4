@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia mae = "Tess"
+		cadeia filha = "Anna"
+		cadeia intermediario
+
+		intermediario = mae
+		mae = filha
+		filha = intermediario
+		
+		escreva("a mãe agora é a ", mae, " e a filha agora é a ", filha)
+	}
+}
