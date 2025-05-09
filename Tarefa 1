@@ -1,0 +1,9 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor_total = 26.90 * 3 + 34.10 + 29.90 + 50
+		escreva("o valor total dos livros foi R$", valor_total, "0")
+	}
+}
