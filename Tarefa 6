@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real comprimento, largura, area, area_centimetros
+
+		escreva("Qual o comprimento, em metros, do Maraca? \n")
+		leia(comprimento)
+
+		escreva("E qual é a largura, em metros, do Maraca? \n")
+		leia(largura)
+
+		area = comprimento * largura
+		area_centimetros = area * 100
+
+		escreva("Então a área do Maraca é ", area, ", o dobro dela é ", area * 2, ", e o dobro dela em centímetros é ", area_centimetros * 2)
+	}
+}
